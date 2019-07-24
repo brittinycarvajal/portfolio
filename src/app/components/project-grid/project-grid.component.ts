@@ -10,7 +10,7 @@ import { WellsFargoComponent } from "../wells-fargo/wells-fargo.component";
 export class ProjectGridComponent implements OnInit {
   projects = [
     {
-      link: "",
+      link: "test",
       img: "../../assets/WellsFargo.png",
       title: "Wells Fargo"
     },
@@ -62,7 +62,8 @@ export class ProjectGridComponent implements OnInit {
   openDialog(): void {
     this.dialog.open(WellsFargoComponent, {
       width: "80vw",
-      height: "90vh"
+      height: "90vh",
+      panelClass: "noPadding"
     });
   }
 }

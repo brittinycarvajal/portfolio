@@ -1,8 +1,16 @@
 mat-grid-tile{
-  background: black;
-  :hover{
+  background: gray;
+  &:hover{
     opacity: .5;
+    filter: grayscale(100%) sepia(100%);
     -webkit-filter: grayscale(100%) sepia(100%);
   }
 }
 
+mat-grid-list{
+  margin-bottom: 2rem;
+}
+
+.mat-dialog-container .noPadding{
+  padding: 0;
+}

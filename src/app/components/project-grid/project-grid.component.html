@@ -1,7 +1,5 @@
-<mat-grid-list cols="4" rowHeight="4:4" gutterSize="2rem">
-  <mat-grid-tile *ngFor="let item of projects" (click)="goTo(item.link)" >
-   <img src="{{item.img}}" alt="">
-
+<mat-grid-list cols="4" rowHeight="1:1" gutterSize="4rem">
+  <mat-grid-tile *ngFor="let item of projects" (click)="goTo(item.link)">
+    <img src="{{ item.img }}" alt="" />
   </mat-grid-tile>
-
 </mat-grid-list>
