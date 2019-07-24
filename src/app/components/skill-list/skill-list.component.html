@@ -1,0 +1,7 @@
+<ul class="skill-bars">
+  <li *ngFor="let item of skills">
+    <div><strong>{{ item.name }}</strong></div>
+    <mat-progress-bar [mode]="'determinate'" [value]="item.num">
+    </mat-progress-bar>
+  </li>
+</ul>

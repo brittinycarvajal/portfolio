@@ -132,5 +132,10 @@
       }
     }
   },
-  "defaultProject": "britCarvajal"
+  "defaultProject": "britCarvajal",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

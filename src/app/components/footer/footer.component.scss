@@ -1,0 +1,32 @@
+.box {
+  background-color: black;
+  color: white;
+  padding-bottom: 48px;
+}
+
+.social, .brandName {
+  padding-top: 32px;
+}
+
+.title{
+  font-size: 3rem;
+}
+.mediaItem {
+  font-size: 1.3rem;
+  padding: 0 0 32px 16px;
+  &::after {
+    content: "|";
+    color: rgba(255, 255, 255, 0.15);
+    padding-left: 0.9rem;
+  }
+  &:last-child::after {
+    display: none;
+  }
+}
+
+.copyright{
+  color: gray;
+}
+mat-icon {
+  padding-right: 4px;
+}

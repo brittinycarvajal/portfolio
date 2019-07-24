@@ -1,0 +1,19 @@
+<div class="box" fxLayout="column">
+  <div class="brandName title" fxLayout="row" fxLayoutAlign="center">Brittiny D Carvajal</div>
+  <div
+    class="social"
+    fxLayout="row"
+    fxLayoutAlign="center"
+    fxLayoutGap="30px"
+    fxLayoutGap.xs="10px"
+  >
+    <div class="mediaItem" *ngFor="let item of socialMedia">
+      <mat-icon class="{{ item.icon }}"></mat-icon> {{ item.text }}
+    </div>
+  </div>
+
+  <div class="copyright" fxLayout="row" fxLayoutAlign="center" fxFlex="100%">
+    <span>© Copyright 2019. </span>
+    <span>Design by <a href="">RA Enterprises</a></span>
+  </div>
+</div>
