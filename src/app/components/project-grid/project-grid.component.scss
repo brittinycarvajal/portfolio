@@ -1,0 +1,8 @@
+mat-grid-tile{
+  background: black;
+  :hover{
+    opacity: .5;
+    -webkit-filter: grayscale(100%) sepia(100%);
+  }
+}
+

@@ -1,0 +1,185 @@
+i {
+  font-size: 3rem;
+  transition: text-shadow 0.5s;
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+  padding-bottom: 1rem;
+}
+i:hover {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  position: relative;
+  font-family: "robotoregular", sans-serif;
+  font-size: 3.75rem;
+  line-height: 67px;
+  font-weight: 600;
+  color: white;
+}
+
+.container-with-img {
+  // background: url("https://image.ibb.co/ed9vvw/page_1.jpg") no-repeat center
+  //   center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  color: white;
+  /* for aligning children vertically */
+  display: flex;
+  align-items: center;
+  /* for horizontallt */
+  justify-content: center;
+}
+
+/* Add opacity to the background image */
+.container-with-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+/*  classes to  add a tint to the background img it allows to highlight the content in stead of img*/
+.sepia_overlay,
+.light_overlay,
+.grey_overlay,
+.dark_overlay {
+  position: relative;
+}
+
+.sepia_overlay:before,
+.light_overlay:before,
+.dark_overlay:before,
+.grey_overlay:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.container.sepia_overlay:before,
+.container.light_overlay:before,
+.container.dark_overlay:before,
+.container.grey_overlay:before {
+  z-index: 1;
+}
+
+.sepia_overlay:before {
+  background: rgba(51, 51, 51, 0.5);
+}
+
+.light_overlay:before {
+  background: rgba(176, 186, 191, 0.2);
+}
+
+.grey_overlay:before {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dark_overlay:before {
+  background: rgba(0, 0, 0, 0.7);
+  /* contact section */
+}
+
+.contact-container {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-card {
+  padding: 2rem 0;
+}
+
+/* building section */
+.building {
+  padding: 2rem 0;
+  background: url("https://www.sydneyoperahouse.com/content/dam/soh/footer/venue-hire/joan-sutherland-theatre/JoanSutherlandTheatre_VenueHire_1600x900_credit_Daniel%20Boud_011.jpg.image.1600.900.high.jpg")
+    no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 0;
+  color: white;
+}
+
+.flex-container {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.flex-item {
+  width: 50%;
+  height: 50%;
+  padding: 1rem;
+}
+
+a i {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 5rem;
+  transition: color 0.5s;
+}
+
+a i:hover {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .container_description {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+/* about section */
+.sectionBlock {
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+  text-align: center;
+}
+
+.aboutMe {
+  padding-bottom: 1.5rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  &::after {
+    display: inline-block;
+    height: 1px;
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    content: "";
+  }
+
+}
+.about-content{
+    text-align: left;
+  }
+.right {
+  text-align: right;
+}
+#portfolio {
+  background: #f1f1f1;
+}
+
+
