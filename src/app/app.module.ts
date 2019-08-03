@@ -7,7 +7,8 @@ import {
   MatGridListModule,
   MatSliderModule,
   MatProgressBarModule,
-  MatDialogModule
+  MatDialogModule,
+  MatCardModule
 } from "@angular/material";
 
 import { AppRoutingModule } from "./app-routing.module";
@@ -19,6 +20,9 @@ import { TestimonialsComponent } from "./components/testimonials/testimonials.co
 import { SkillListComponent } from "./components/skill-list/skill-list.component";
 import { ModalComponent } from './components/modal/modal.component';
 import { WellsFargoComponent } from './components/wells-fargo/wells-fargo.component';
+import { FormsModule } from '@angular/forms';
+import { AchieveItComponent } from './components/achieve-it/achieve-it.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -29,13 +33,17 @@ import { WellsFargoComponent } from './components/wells-fargo/wells-fargo.compon
     TestimonialsComponent,
     SkillListComponent,
     ModalComponent,
-    WellsFargoComponent
+    WellsFargoComponent,
+    AchieveItComponent,
+    SliderComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
+    MatCardModule,
     AppRoutingModule,
     FlexLayoutModule,
+    FormsModule,
     MatDialogModule,
     MatIconModule,
     MatGridListModule,
@@ -43,7 +51,7 @@ import { WellsFargoComponent } from './components/wells-fargo/wells-fargo.compon
     MatProgressBarModule
   ],
   entryComponents: [
-    WellsFargoComponent
+    AchieveItComponent
   ],
   providers: [
     {

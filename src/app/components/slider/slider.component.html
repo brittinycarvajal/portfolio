@@ -1,0 +1,55 @@
+<div uk-slider="center: true">
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+    <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+      <li *ngFor="let item of data">
+        <!-- <mat-card>
+          <mat-card-header>
+            <mat-card-title> {{ item.name }}</mat-card-title>
+            <mat-card-subtitle> {{ item.title }} </mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p [innerHTML]="item.text"></p>
+          </mat-card-content>
+        </mat-card> -->
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <div class="uk-width-auto">
+              </div>
+              <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom"> {{ item.name}}</h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  {{ item.title}}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-card-body">
+            <p>
+              {{ item.text }}
+            </p>
+          </div>
+          <div class="uk-card-footer">
+            <a href="#" class="uk-button uk-button-text">Read more</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <button uk-slidenav-previous uk-slider-item="previous"></button>
+    <a
+      class="uk-position-center-left-out "
+      href="#"
+      uk-slidenav-previous
+      uk-slider-item="previous"
+    ></a>
+    <a
+      class="uk-position-center-right-out"
+      href="#"
+      uk-slidenav-next
+      uk-slider-item="next"
+    ></a>
+  </div>
+
+  <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+</div>

@@ -11,6 +11,7 @@ export class WellsFargoComponent extends ModalComponent implements OnInit {
   constructor(public dialogRef: MatDialogRef<WellsFargoComponent>) {
     super(dialogRef);
   }
+  // constructor() {}
 
   ngOnInit() {}
 }

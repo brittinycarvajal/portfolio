@@ -1,6 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { MatDialog } from "@angular/material";
 import { WellsFargoComponent } from "../wells-fargo/wells-fargo.component";
+import { Router } from '@angular/router';
+import { AchieveItComponent } from '../achieve-it/achieve-it.component';
 
 @Component({
   selector: "app-project-grid",
@@ -10,57 +12,37 @@ import { WellsFargoComponent } from "../wells-fargo/wells-fargo.component";
 export class ProjectGridComponent implements OnInit {
   projects = [
     {
-      link: "test",
+      link: "1",
       img: "../../assets/WellsFargo.png",
       title: "Wells Fargo"
     },
     {
-      link: "",
-      img: "",
-      title: "Test title"
-    },
-    {
-      link: "",
-      img: "",
-      title: "Test title"
-    },
-    {
-      link: "",
-      img: "",
-      title: "Test title"
-    },
-    {
-      link: "",
-      img: "../../assets/WellsFargo.png",
-      title: "Wells Fargo"
-    },
-    {
-      link: "",
-      img: "",
-      title: "Test title"
-    },
-    {
-      link: "",
-      img: "",
-      title: "Test title"
-    },
-    {
-      link: "",
-      img: "",
+      link: "2",
+      img: "../../assets/AIPic.png",
       title: "Test title"
     }
   ];
-  constructor(public dialog: MatDialog) {}
+  constructor(public dialog: MatDialog, private router: Router) {}
 
   ngOnInit() {}
 
   goTo(link: string) {
+    this.openDialog(link);
     console.log("tile clicked", link);
-    this.openDialog();
+    // this.router.navigateByUrl("/achieveIt");
   }
 
-  openDialog(): void {
-    this.dialog.open(WellsFargoComponent, {
+  openDialog(link: string): void {
+    let component;
+    switch (link) {
+      case "1":
+        component = WellsFargoComponent;
+        break;
+      default:
+        component = AchieveItComponent;
+        break;
+    }
+    this.dialog.open(component, {
       width: "80vw",
       height: "90vh",
       panelClass: "noPadding"

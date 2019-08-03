@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { WellsFargoComponent } from './components/wells-fargo/wells-fargo.component';
+import { AchieveItComponent } from './components/achieve-it/achieve-it.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'home', component: HomePageComponent },
-  // { path: "event", component: EventPageComponent },
-  // { path: "visual-arts", component: VisualArtsComponent },
+  { path: "wellsFargo", component: WellsFargoComponent },
+  { path: "achieveIt", component: AchieveItComponent },
   // { path: "music", component: MusicComponent },
   // { path: "theater", component: TheaterPageComponent },
   // { path: "dance", component: DancePageComponent },

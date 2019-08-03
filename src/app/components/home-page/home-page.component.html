@@ -18,11 +18,9 @@
   <div class="sectionBlock">
     <div class="aboutMe">
       <h1 class="black">More About Me</h1>
-      <p class="lead">
-        Hey guys, I am a UI Designer located in the heart of the Silicon Slopes
-        here in Lehi, UT. After dedicating more than 500 hours to learning the
-        art of UI Design, I am proud to announce that I am ready to immerse
-        myself into my chosen career.
+      <p class="black">
+        Hey guys, I'm currently seeking UI/UX opportunitites in the Silicon Slopes Area in Utah.
+        Like what you see? <a href="#contact">Let's connect!</a>
       </p>
     </div>
 
@@ -64,7 +62,8 @@
   </div>
 </section>
 
-<section id="portfolio"
+<section
+  id="portfolio"
   class=" sepia_overlay"
   style="background: url('../../assets/stars.jpg') no-repeat center; background-size: cover;background-attachment: fixed;"
 >
@@ -82,14 +81,97 @@
   </div>
 </section>
 
-<section
-  id="testimonials"
+<section id="testimonials">
+  <div class="sectionBlock">
+    <div class="">
+      <h3 class="black">Let them tell you about me</h3>
+    </div>
+    <app-slider></app-slider>
+  </div>
+</section>
 
+<section
+  id="contact"
+  class="sepia_overlay white"
+  style="background: url('../../assets/baloons.jpg') no-repeat center; background-size: cover;background-attachment: fixed;"
 >
   <div class="sectionBlock">
-    <div class="aboutMe">
-      <h3 class="black">Let them tell you about me</h3>
+    <h3>Contact</h3>
+    <h1>Say Hello.</h1>
+
+    <div
+      class="contactForm"
+      fxLayout="row"
+      fxLayoutGap="60px"
+      fxLayoutGap.xs="10px"
+    >
+      <div class="">
+        <form (submit)="sendEmail()">
+          <input
+            name="contactName"
+            type="text"
+            id="contactName"
+            placeholder="Name"
+            value=""
+            minlength="2"
+            aria-required="true"
+            class="full-width"
+            [(ngModel)]="name"
+          />
+
+          <input
+            name="contactEmail"
+            type="email"
+            id="contactEmail"
+            placeholder="Email"
+            value=""
+            required=""
+            aria-required="true"
+            class="full-width"
+            [(ngModel)]="email"
+          />
+
+          <div class="form-field">
+            <textarea
+              name="contactMessage"
+              id="contactMessage"
+              placeholder="message"
+              rows="10"
+              cols="50"
+              required=""
+              aria-required="true"
+              class="full-width"
+              [(ngModel)]="message"
+            ></textarea>
+          </div>
+
+          <button class="submit">SUBMIT</button>
+        </form>
+      </div>
+      <div>
+        <h4 class="">Email</h4>
+        <p>
+          brittinyCarvajal@gmail.com
+        </p>
+
+        <h4 class="">Address</h4>
+        <p>
+          Silicon Slopes<br />
+          Lehi, UT<br />
+          84043 US
+        </p>
+      </div>
     </div>
   </div>
 </section>
 <app-footer></app-footer>
+
+<!-- contact-warning
+        <div class="message-warning">
+          Something went wrong. Please try again.
+        </div>
+
+
+        <div class="message-success">
+          Your message was sent, thank you!<br />
+        </div> -->

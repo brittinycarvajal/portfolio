@@ -4,7 +4,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+.white {
   color: white;
 }
 
@@ -17,4 +18,30 @@ html,
   .mat-dialog-container {
     padding: 0;
   }
+}
+
+
+
+.sectionBlock {
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+  text-align: center;
+}
+.leftJ{
+  text-align: left;
+}
+.full-width{
+  width: 100%;
+}
+
+.spacer{
+  flex-grow: 1;
+}
+
+.whiteBG{
+  background: white;
 }

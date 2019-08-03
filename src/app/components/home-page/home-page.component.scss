@@ -143,15 +143,7 @@ a i:hover {
 }
 
 /* about section */
-.sectionBlock {
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  position: relative;
-  text-align: center;
-}
+
 
 .aboutMe {
   padding-bottom: 1.5rem;
@@ -176,4 +168,45 @@ a i:hover {
 }
 #portfolio {
   background: #f1f1f1;
+}
+
+.contactForm {
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  color: inherit;
+  background: transparent;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+input {
+  height: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.submit {
+  margin-top: 4.2rem;
+  background-color: #862121;
+  border-color: #862121;
+  width: 100%;
+  color: white;
+  height: 4rem;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 5px;
 }
