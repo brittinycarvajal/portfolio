@@ -7,11 +7,11 @@ import { MatDialogRef } from '@angular/material';
   templateUrl: "./wells-fargo.component.html",
   styleUrls: ["./wells-fargo.component.scss"]
 })
-export class WellsFargoComponent implements OnInit {
-  // constructor(public dialogRef: MatDialogRef<WellsFargoComponent>) {
-  //   super(dialogRef);extends ModalComponent
-  // }
-  constructor() {}
+export class WellsFargoComponent extends ModalComponent implements OnInit {
+  constructor(public dialogRef: MatDialogRef<WellsFargoComponent>) {
+    super(dialogRef);
+  }
+  // constructor() {}
 
   ngOnInit() {}
 }
