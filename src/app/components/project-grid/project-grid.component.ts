@@ -13,12 +13,12 @@ export class ProjectGridComponent implements OnInit {
   projects = [
     {
       link: "1",
-      img: "../../assets/WellsFargo.png",
+      img: "./assets/WellsFargo.png",
       title: "Wells Fargo"
     },
     {
       link: "2",
-      img: "../../assets/AIPic.png",
+      img: "./assets/AIPic.png",
       title: "Test title"
     }
   ];
