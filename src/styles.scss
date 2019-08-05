@@ -45,3 +45,23 @@ html,
 .whiteBG{
   background: white;
 }
+
+.center {
+  text-align: center;
+  padding: 2rem 0;
+}
+.blueBG {
+  background: #f4f6f7;
+}
+
+.textBlock {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.section {
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+}

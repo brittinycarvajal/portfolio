@@ -1,11 +1,9 @@
 mat-grid-tile{
-  background: gray;
   &:hover{
     opacity: .5;
     filter: grayscale(100%) sepia(100%);
     -webkit-filter: grayscale(100%) sepia(100%);
   }
-
 }
 
 mat-grid-list{
@@ -15,3 +13,4 @@ mat-grid-list{
 .mat-dialog-container .noPadding{
   padding: 0;
 }
+

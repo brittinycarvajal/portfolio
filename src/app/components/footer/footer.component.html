@@ -1,5 +1,7 @@
 <div class="box" fxLayout="column">
-  <div class="brandName title" fxLayout="row" fxLayoutAlign="center">Brittiny D Carvajal</div>
+  <div class="brandName title" fxLayout="row" fxLayoutAlign="center">
+    Brittiny D Carvajal
+  </div>
   <div
     class="social"
     fxLayout="row"
@@ -8,7 +10,8 @@
     fxLayoutGap.xs="10px"
   >
     <div class="mediaItem" *ngFor="let item of socialMedia">
-      <mat-icon class="{{ item.icon }}"></mat-icon> {{ item.text }}
+      <a [href]="sanitize(item.link)" class="{{ item.icon }}" target="_blank"></a>
+      {{ item.text }}
     </div>
   </div>
 

@@ -27,9 +27,9 @@ export class ProjectGridComponent implements OnInit {
   ngOnInit() {}
 
   goTo(link: string) {
-    this.openDialog(link);
+    // this.openDialog(link);
     console.log("tile clicked", link);
-    // this.router.navigateByUrl("/achieveIt");
+    this.router.navigateByUrl("/wellsFargo");
   }
 
   openDialog(link: string): void {

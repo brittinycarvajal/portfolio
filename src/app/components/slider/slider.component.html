@@ -1,55 +1,65 @@
-<div uk-slider="center: true">
-  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-    <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
-      <li *ngFor="let item of data">
-        <!-- <mat-card>
-          <mat-card-header>
-            <mat-card-title> {{ item.name }}</mat-card-title>
-            <mat-card-subtitle> {{ item.title }} </mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content>
-            <p [innerHTML]="item.text"></p>
-          </mat-card-content>
-        </mat-card> -->
+<div uk-slider="center: true; autoplay: true">
+  <div
+    class="leftJ uk-slider-container uk-position-relative uk-visible-toggle uk-dark"
+    tabindex="-1"
+  >
+    <div class="uk-slider-items uk-child-width-1-2@s" uk-grid>
+      <div *ngFor="let item of data; let i = index">
         <div class="uk-card uk-card-default">
           <div class="uk-card-header">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
-              <div class="uk-width-auto">
-              </div>
+              <div class="uk-width-auto"></div>
               <div class="uk-width-expand">
-                <h3 class="uk-card-title uk-margin-remove-bottom"> {{ item.name}}</h3>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  {{ item.name }}
+                </h3>
                 <p class="uk-text-meta uk-margin-remove-top">
-                  {{ item.title}}
+                  {{ item.title }}
                 </p>
               </div>
             </div>
           </div>
-          <div class="uk-card-body">
-            <p>
+          <div class="uk-card-body" [class.expand]="item.show">
+            <p [class.expand]="item.show">
               {{ item.text }}
             </p>
           </div>
           <div class="uk-card-footer">
-            <a href="#" class="uk-button uk-button-text">Read more</a>
+            <button (click)="expand(i)" class="uk-button uk-button-text">
+              Read {{ !item.show ? "more" : "less" }}
+            </button>
           </div>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
 
-    <button uk-slidenav-previous uk-slider-item="previous"></button>
+    <!-- <button uk-slider-item="previous"></button>
+    <button uk-slidenav-next></button> -->
+  </div>
+  <div class="uk-hidden@s uk-light">
     <a
-      class="uk-position-center-left-out "
-      href="#"
+      class="uk-position-center-left uk-position-small"
       uk-slidenav-previous
       uk-slider-item="previous"
     ></a>
     <a
-      class="uk-position-center-right-out"
-      href="#"
+      class="uk-position-center-right uk-position-small"
       uk-slidenav-next
       uk-slider-item="next"
     ></a>
   </div>
 
+  <div class="uk-visible@s">
+    <a
+      class="uk-position-center-left-out uk-position-small"
+      uk-slidenav-previous
+      uk-slider-item="previous"
+    ></a>
+    <a
+      class="uk-position-center-right-out uk-position-small"
+      uk-slidenav-next
+      uk-slider-item="next"
+    ></a>
+  </div>
   <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>

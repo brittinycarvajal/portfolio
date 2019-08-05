@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: "app-footer",
@@ -8,27 +9,21 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   socialMedia = [
     {
-      text: "Facebook",
-      icon: "fab fa-facebook",
-      link: ""
-    },
-    {
-      text: "Instagram",
-      icon: "fab fa-instagram",
-      link: ""
-    },
-    {
       text: "LinkedIn",
       icon: "fab fa-linkedin",
-      link: ""
+      link: "https://www.linkedin.com/in/brittiny-carvajal/"
     },
     {
-      text: "Pinterest",
-      icon: "fab fa-pinterest",
-      link: ""
+      text: "Behance",
+      icon: "fab fa-behance-square",
+      link: "https://www.behance.net/brittinycarvajal"
     }
   ];
-  constructor() {}
+  constructor(private sanitizer: DomSanitizer) {
+  }
+  sanitize(link: string){
+    return this.sanitizer.bypassSecurityTrustUrl(link);
+  }
 
   ngOnInit() {}
 }

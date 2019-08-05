@@ -76,7 +76,7 @@ i:hover {
   background: rgba(176, 186, 191, 0.2);
 }
 
-.grey_overlay:before {
+.gray_overlay:before {
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -144,7 +144,6 @@ a i:hover {
 
 /* about section */
 
-
 .aboutMe {
   padding-bottom: 1.5rem;
   text-align: center;
@@ -189,6 +188,10 @@ textarea {
     display: table;
     clear: both;
   }
+  &::placeholder {
+    // color: #;
+
+  }
 }
 
 input {
@@ -209,4 +212,9 @@ input {
   font-weight: bold;
   font-size: 1rem;
   letter-spacing: 5px;
+}
+
+.icon{
+  font-size: 24px;
+  padding-left: 1rem;
 }
