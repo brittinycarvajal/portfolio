@@ -1,0 +1,101 @@
+.title {
+  font-size: 68px;
+}
+.container_description {
+  padding-bottom: 4rem;
+  font-size: 48px;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+.fullH {
+  height: 100vh;
+}
+
+.floatRight {
+  position: relative;
+  top: -70px;
+}
+
+.disclaimer {
+  font-size: 10px;
+}
+
+.lg1 {
+  position: relative;
+  top: 150px;
+}
+
+.section {
+  padding: auto;
+}
+
+.subSection {
+  margin-top: 2rem;
+  width: 60%;
+}
+.grayBG {
+  background: #d8d8d8;
+}
+.hypothesis {
+  padding: 2rem;
+}
+.screens {
+  position: relative;
+  top: 375px;
+}
+ul {
+  margin-top: 0;
+  li {
+    list-style-type: none;
+  }
+}
+.underFloating {
+  margin-top: 10rem;
+}
+
+.footer {
+  padding-right: 8rem;
+}
+
+.workFlow {
+  top: -300px;
+  margin-bottom: -300px;
+}
+
+.video {
+  top: -250px;
+  margin-bottom: -250px;
+}
+
+.lgs {
+  &::after {
+    height: 0px;
+    position: relative;
+    display: flow-root;
+    top: -15px;
+    padding-left: 2rem;
+  }
+}
+
+.scope::after {
+  content: url(../../../assets/Glasses.png);
+}
+
+.pondering {
+  height: 300px;
+}
+.exploreS{
+   height: 480px;
+}
+
+
+.lgp {
+  top: -230px;
+  padding-left: 2rem;
+  position: relative;
+}
+
+

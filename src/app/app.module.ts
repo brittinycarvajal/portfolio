@@ -23,6 +23,7 @@ import { WellsFargoComponent } from './components/wells-fargo/wells-fargo.compon
 import { FormsModule } from '@angular/forms';
 import { AchieveItComponent } from './components/achieve-it/achieve-it.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { DuolingoComponent } from './components/duolingo/duolingo.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { SliderComponent } from './components/slider/slider.component';
     ModalComponent,
     WellsFargoComponent,
     AchieveItComponent,
-    SliderComponent
+    SliderComponent,
+    DuolingoComponent
   ],
   imports: [
     BrowserAnimationsModule,

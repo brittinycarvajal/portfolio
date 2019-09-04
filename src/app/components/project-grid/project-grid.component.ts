@@ -3,6 +3,7 @@ import { MatDialog } from "@angular/material";
 import { WellsFargoComponent } from "../wells-fargo/wells-fargo.component";
 import { Router } from '@angular/router';
 import { AchieveItComponent } from '../achieve-it/achieve-it.component';
+import { DuolingoComponent } from '../duolingo/duolingo.component';
 
 @Component({
   selector: "app-project-grid",
@@ -11,13 +12,18 @@ import { AchieveItComponent } from '../achieve-it/achieve-it.component';
 })
 export class ProjectGridComponent implements OnInit {
   projects = [
+    // {
+    //   link: "1",
+    //   img: "./assets/WellsFargo.png",
+    //   title: "Wells Fargo"
+    // },
+    // {
+    //   link: "2",
+    //   img: "./assets/AIPic.png",
+    //   title: "Test title"
+    // },
     {
-      link: "1",
-      img: "./assets/WellsFargo.png",
-      title: "Wells Fargo"
-    },
-    {
-      link: "2",
+      link: "3",
       img: "./assets/AIPic.png",
       title: "Test title"
     }
@@ -27,9 +33,9 @@ export class ProjectGridComponent implements OnInit {
   ngOnInit() {}
 
   goTo(link: string) {
-    this.openDialog(link);
+    // this.openDialog(link);
     console.log("tile clicked", link);
-    // this.router.navigateByUrl("/wellsFargo");
+    this.router.navigateByUrl("/wellsFargo");
   }
 
   openDialog(link: string): void {
@@ -38,8 +44,14 @@ export class ProjectGridComponent implements OnInit {
       case "1":
         component = WellsFargoComponent;
         break;
-      default:
+      case "2":
         component = AchieveItComponent;
+        break;
+      case "3":
+        component = DuolingoComponent;
+        break;
+      default:
+        component = WellsFargoComponent;
         break;
     }
     this.dialog.open(component, {

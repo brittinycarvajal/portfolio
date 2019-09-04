@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="297" viewBox="0 0 1400 297">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EFE38E" d="M48 219h150v50H48z"/>
+        <path fill="#E02020" d="M456 76h150v75H456z"/>
+        <path fill="#8EEFE0" d="M543 219h150v50H543z"/>
+        <path fill="#E02020" d="M786 47h150v75H786zM621 63h150v75H621z"/>
+        <path fill="#8E9BEF" d="M708 219h150v50H708z"/>
+        <path fill="#8EEF93" d="M378 219h150v50H378z"/>
+        <path fill="#CEEF8E" d="M213 219h150v50H213z"/>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="11" y="211">Wants to learn </tspan> <tspan x="11" y="233">a new language</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="181" y="211">Opens app, </tspan> <tspan x="181" y="233">creates profile</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="367" y="211">Learns a </tspan> <tspan x="367" y="233">few things</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="413.028" y="67">Gets bored.When </tspan> <tspan x="416.223" y="89">will user actually </tspan> <tspan x="425.091" y="111">start learning?</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="532" y="222">Levels Up</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="667" y="211">It’s fun, but is it </tspan> <tspan x="667" y="233">worth the time?</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="606.5" y="54">Not really </tspan> <tspan x="593.422" y="76">learning new </tspan> <tspan x="605.433" y="98">things yet</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="776.88" y="40">It wasn’t </tspan> <tspan x="769.664" y="62">interesting </tspan> <tspan x="781.846" y="84">enough</tspan>
+        </text>
+        <path fill="#000" fill-rule="nonzero" d="M526 162.5V216h-1v-53.5h-4l4.5-9 4.5 9h-4zM855.5 132v84h-1v-84h-4l4.5-9 4.5 9h-4zM689.5 149v67h-1v-67h-4l4.5-9 4.5 9h-4z"/>
+        <path fill="#EF8EA0" d="M1203 221h150v50h-150z"/>
+        <path fill="#E02020" d="M1115 29h150v75h-150z"/>
+        <path fill="#EE8EEF" d="M1038 219h150v50h-150z"/>
+        <path fill="#BF8EEF" d="M873 219h150v50H873z"/>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="1006" y="222">Stops using app</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="1159" y="211">User forgets what </tspan> <tspan x="1159" y="233">was learned</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="1098.681" y="21">Didn’t use </tspan> <tspan x="1083.375" y="43">information in </tspan> <tspan x="1109.316" y="65">real life</tspan>
+        </text>
+        <text fill="#000" font-family="Tahoma" font-size="18" transform="translate(48 29)">
+            <tspan x="828.043" y="222">Ignores reminders </tspan>
+        </text>
+        <path fill="#000" fill-rule="nonzero" d="M1185.5 117v99h-1v-99h-4l4.5-9 4.5 9h-4z"/>
+    </g>
+</svg>

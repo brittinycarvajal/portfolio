@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+    <defs>
+        <radialGradient id="a" cx="15.176%" cy="37.872%" r="59.042%" fx="15.176%" fy="37.872%" gradientTransform="matrix(0 1 -.54429 0 .358 .227)">
+            <stop offset="0%" stop-color="#267EB5"/>
+            <stop offset="100%" stop-color="#11487E"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M0 0h1400v762H0z"/>
+        <ellipse cx="984" cy="188" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="908" cy="416" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="1323" cy="399" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="834" cy="696" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="684" cy="97" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="156" cy="251" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="439" cy="141" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="68" cy="657" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="41" cy="59" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="1192" cy="76" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="1190" cy="190.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1247" cy="96.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1283" cy="213.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1353" cy="40.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1379" cy="140.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1340" cy="227.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1356" cy="356.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1328" cy="464.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1281" cy="605.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1334" cy="648.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1349" cy="561.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1198" cy="717.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1161" cy="581.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1221" cy="517.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1264" cy="439.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1163" cy="359.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1212" cy="329.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1163" cy="44.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1025" cy="373" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="894" cy="51" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="892" cy="164.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="949" cy="71.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="985" cy="188.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1055" cy="15.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1081" cy="115.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1042" cy="201.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1058" cy="330.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1030" cy="439.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="983" cy="580.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1036" cy="622.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1051" cy="536.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="900" cy="692.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="863" cy="556.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="923" cy="492.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="966" cy="414.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="865" cy="334.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="914" cy="303.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="865" cy="18.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="740" cy="512" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="609" cy="190" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="607" cy="303.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="664" cy="210.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="700" cy="327.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="770" cy="154.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="796" cy="254.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="757" cy="341.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="773" cy="469.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="745" cy="578.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="698" cy="719.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="766" cy="675.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="578" cy="695.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="638" cy="631.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="681" cy="553.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="580" cy="473.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="629" cy="442.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="580" cy="157.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="419" cy="373" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="288" cy="51" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="286" cy="164.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="343" cy="71.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="379" cy="188.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="449" cy="15.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="475" cy="115.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="436" cy="201.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="452" cy="330.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="424" cy="439.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="377" cy="580.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="430" cy="622.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="445" cy="536.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="294" cy="692.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="257" cy="556.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="317" cy="492.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="360" cy="414.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="259" cy="334.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="308" cy="303.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="259" cy="18.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="192" cy="563" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="61" cy="241" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="59" cy="354.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="116" cy="261.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="152" cy="378.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="222" cy="205.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="248" cy="305.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="209" cy="391.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="225" cy="520.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="197" cy="629.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="218" cy="726.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="30" cy="746.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="90" cy="682.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="133" cy="604.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="32" cy="524.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="81" cy="493.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="32" cy="208.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="1085" cy="134.5" fill="#FFF" rx="1" ry="1.5"/>
+        <ellipse cx="620" cy="514" fill="#FFF" rx="3" ry="5"/>
+        <ellipse cx="1122" cy="495" fill="#FFF" rx="3" ry="5"/>
+        <g transform="translate(50 119)">
+            <circle cx="161.5" cy="161.5" r="161.5" fill="#1A71AA" fill-opacity=".372"/>
+            <circle cx="161.5" cy="161.5" r="137.5" fill="#68A4CB" fill-opacity=".296" opacity=".263"/>
+            <circle cx="160" cy="162" r="110" fill="#52C4D2"/>
+            <path fill="#51AA4C" d="M231 86a51.986 51.986 0 0 1 6 4c1.804 1.403 4.304 3.57 7.5 6.5L233 95l-2-9zM231.818 100.5L253 103c2.696 3.763 4.643 6.93 5.84 9.5 1.198 2.57 2.751 6.57 4.66 12l-27.023-11L222.5 121l1.864-10.5 4.193-2.5-1.398-3 4.66-4.5zM94.858 164l55.642 29.897L95 251l-6.5-5.5 10.496-36.936L87.5 185.436z"/>
+            <path fill="#51AA4C" d="M81.5 84.5l33.59-9.5-.909 16-13.169 1.5L115.09 109l23.16-7 6.811-16 15.44 12v17l-26.792 20.5-4.995 17-13.624-11.5-20.889-5.5-2.724 16 6.811 1L94.2 162l.909 2-3.633 10.5-12.715-18L66.5 120l4.541-23.5z"/>
+            <path fill="#51AA4C" d="M137.5 60l8 6.5-4 10-17 2.5-.5-14zM152 69h9l1 5-12 1.5z"/>
+            <path fill="#FFF" d="M167 52c9.557.869 18.39 2.535 26.5 5s17.443 7.131 28 14l-15 7.5 5 15.5L175 77l3-9.5L167 52z"/>
+            <path fill="#51AA4C" d="M207 152.5l26-24 10 13.5 13.5-10 12.5 14c1.216 8.667 1.383 18.333.5 29-.584 7.063-3.843 21.529-9.5 34-1.924 4.242-5.424 9.742-10.5 16.5L231 187l-18.5-7-5.5-27.5z"/>
+        </g>
+    </g>
+</svg>
