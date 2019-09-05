@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="378" height="147" viewBox="0 0 378 147">
+    <defs>
+        <radialGradient id="a" cx="23.25%" cy="55.35%" r="81.376%" fx="23.25%" fy="55.35%" gradientTransform="scale(-.38624 -1) rotate(-40.111 -1.7 1.143)">
+            <stop offset="0%" stop-color="#1E6D9D"/>
+            <stop offset="100%" stop-color="#11487E"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#D8D8D8" d="M-295-146h1400v413H-295z" opacity=".43"/>
+        <path fill="url(#a)" d="M295 5637h378v146H295z" transform="rotate(180 336.5 2891.5)"/>
+        <text fill="#000" font-family="Tahoma" font-size="24" letter-spacing="-.576" transform="translate(-295 -5637)">
+            <tspan x="293" y="5532">Exploring Ideas</tspan> <tspan x="293" y="5561" font-size="18" letter-spacing="-.432">After spending a fair amount of time getting to know the users, the lovers, and the haters, I wrote down all </tspan> <tspan x="293" y="5583" font-size="18" letter-spacing="-.432">the ideas that I could think of. I wanted to broaden the horizon on the possibilities to fix the problem that </tspan> <tspan x="293" y="5605" font-size="18" letter-spacing="-.432">users are not learning a second language through apps like Duolingo because they do not dedicate enough </tspan> <tspan x="293" y="5627" font-size="18" letter-spacing="-.432">time to their studies. </tspan>
+        </text>
+        <g fill="#FFF" transform="translate(5 9)">
+            <circle cx="329" cy="20" r="2"/>
+            <circle cx="258" cy="114" r="2"/>
+            <circle cx="191" cy="133" r="2"/>
+            <circle cx="71" cy="12" r="2"/>
+            <circle cx="144.5" cy="6.5" r="1"/>
+            <circle cx="167.5" cy="48.5" r="1"/>
+            <circle cx="112.5" cy="37.5" r="1"/>
+            <circle cx="99.5" cy=".5" r="1"/>
+            <circle cx="36.5" cy="8.5" r="1"/>
+            <circle cx=".5" cy="3.5" r="1"/>
+            <circle cx="17.5" cy="44.5" r="1"/>
+            <circle cx="3.5" cy="65.5" r="1"/>
+            <circle cx="1.5" cy="68.5" r="1"/>
+            <circle cx="14.5" cy="93.5" r="1"/>
+            <circle cx=".5" cy="131.5" r="1"/>
+            <circle cx="30.5" cy="118.5" r="1"/>
+            <circle cx="60.5" cy="135.5" r="1"/>
+            <circle cx="103.5" cy="111.5" r="1"/>
+            <circle cx="127.5" cy="91.5" r="1"/>
+            <circle cx="172.5" cy="115.5" r="1"/>
+            <circle cx="183.5" cy="72.5" r="1"/>
+            <circle cx="227.5" cy="104.5" r="1"/>
+            <circle cx="245.5" cy="137.5" r="1"/>
+            <circle cx="308.5" cy="120.5" r="1"/>
+            <circle cx="336.5" cy="82.5" r="1"/>
+            <circle cx="359.5" cy="49.5" r="1"/>
+            <circle cx="353.5" cy="114.5" r="1"/>
+            <circle cx="287.5" cy="71.5" r="1"/>
+            <circle cx="306.5" cy="29.5" r="1"/>
+            <circle cx="263.5" cy="5.5" r="1"/>
+            <circle cx="220.5" cy="48.5" r="1"/>
+            <circle cx="183.5" cy="17.5" r="1"/>
+            <circle cx="47.5" cy="71.5" r="1"/>
+            <circle cx="8" cy="70" r="2"/>
+        </g>
+    </g>
+</svg>
