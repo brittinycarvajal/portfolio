@@ -112,6 +112,9 @@ ul {
 @media #{$above-large} {
   .row-contents {
     grid-template-columns: repeat(3, 1fr);
+    &.four{
+       grid-template-columns: repeat(4, 1fr);
+    }
   }
   .subSection {
     margin-top: 2rem;
