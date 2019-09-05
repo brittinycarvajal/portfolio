@@ -1,0 +1,5 @@
+$grid-unit: 8px;
+$small_device_cutoff: 75 * $grid-unit; //600
+$large_device_cutoff: 128 * $grid-unit; //1024
+$above-large: "screen and (min-width: #{$large_device_cutoff + 1})";
+$above-small: "screen and (min-width: #{$small_device_cutoff + 1})";

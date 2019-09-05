@@ -12,19 +12,19 @@ import { DuolingoComponent } from '../duolingo/duolingo.component';
 })
 export class ProjectGridComponent implements OnInit {
   projects = [
-    // {
-    //   link: "1",
-    //   img: "./assets/WellsFargo.png",
-    //   title: "Wells Fargo"
-    // },
-    // {
-    //   link: "2",
-    //   img: "./assets/AIPic.png",
-    //   title: "Test title"
-    // },
+    {
+      link: "1",
+      img: "./assets/WellsFargo.png",
+      title: "Wells Fargo"
+    },
+    {
+      link: "2",
+      img: "./assets/AIPic.png",
+      title: "Test title"
+    },
     {
       link: "3",
-      img: "./assets/AIPic.png",
+      img: "./assets/duoorangepage.jpeg",
       title: "Test title"
     }
   ];
@@ -33,9 +33,8 @@ export class ProjectGridComponent implements OnInit {
   ngOnInit() {}
 
   goTo(link: string) {
-    // this.openDialog(link);
-    console.log("tile clicked", link);
-    this.router.navigateByUrl("/wellsFargo");
+    this.openDialog(link);
+    // this.router.navigateByUrl("/wellsFargo");
   }
 
   openDialog(link: string): void {

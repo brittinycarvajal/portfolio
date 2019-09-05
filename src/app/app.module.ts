@@ -53,7 +53,9 @@ import { DuolingoComponent } from './components/duolingo/duolingo.component';
     MatProgressBarModule
   ],
   entryComponents: [
-    AchieveItComponent
+    AchieveItComponent,
+    WellsFargoComponent,
+    DuolingoComponent
   ],
   providers: [
     {

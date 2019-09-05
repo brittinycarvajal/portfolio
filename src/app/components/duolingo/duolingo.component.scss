@@ -1,3 +1,5 @@
+@import "./../../../layout.scss";
+
 .title {
   font-size: 68px;
 }
@@ -14,11 +16,6 @@
   height: 100vh;
 }
 
-.floatRight {
-  position: relative;
-  top: -70px;
-}
-
 .disclaimer {
   font-size: 10px;
 }
@@ -32,10 +29,6 @@
   padding: auto;
 }
 
-.subSection {
-  margin-top: 2rem;
-  width: 60%;
-}
 .grayBG {
   background: #d8d8d8;
 }
@@ -51,13 +44,6 @@ ul {
   li {
     list-style-type: none;
   }
-}
-.underFloating {
-  margin-top: 10rem;
-}
-
-.footer {
-  padding-right: 8rem;
 }
 
 .workFlow {
@@ -84,18 +70,58 @@ ul {
   content: url(../../../assets/Glasses.png);
 }
 
-.pondering {
-  height: 300px;
+@media #{$above-small} {
+  .row-header {
+    margin-top: 24px;
+  }
+  .row-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+    &.tall-cards {
+      min-height: 265px;
+    }
+  }
+
+  .floatRight {
+    position: relative;
+    top: -70px;
+  }
+  .pondering {
+    height: 300px;
+  }
+  .exploreS {
+    height: 480px;
+  }
+  .insights {
+    height: 300px;
+  }
+  .lgp {
+    top: -230px;
+    padding-left: 2rem;
+    position: relative;
+  }
+  .underFloating {
+    margin-top: 10rem;
+  }
+  .footer {
+    padding-right: 8rem;
+  }
 }
-.exploreS{
-   height: 480px;
+
+@media #{$above-large} {
+  .row-contents {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .subSection {
+    margin-top: 2rem;
+    width: 60%;
+  }
 }
 
-
-.lgp {
-  top: -230px;
-  padding-left: 2rem;
-  position: relative;
+.row-contents {
+  display: grid;
+  grid-row-gap: 8px;
+  max-width: fit-content;
+  margin: 0 auto 0 auto;
 }
-
-

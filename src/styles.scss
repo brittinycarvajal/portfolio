@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./layout.scss";
 
 h1,
 h2,
@@ -20,8 +21,6 @@ html,
   }
 }
 
-
-
 .sectionBlock {
   justify-content: center;
   width: 80%;
@@ -31,18 +30,18 @@ html,
   position: relative;
   text-align: center;
 }
-.leftJ{
+.leftJ {
   text-align: left;
 }
-.full-width{
+.full-width {
   width: 100%;
 }
 
-.spacer{
+.spacer {
   flex-grow: 1;
 }
 
-.whiteBG{
+.whiteBG {
   background: white;
 }
 
@@ -55,7 +54,7 @@ html,
 }
 
 .textBlock {
-  width: 50%;
+  width: 80%;
   margin: 0 auto 0 auto;
 }
 .section {
@@ -66,16 +65,22 @@ html,
   position: relative;
 }
 
-.paddingTop{
+.paddingTop {
   padding-top: 2rem;
 }
 
-.paddingB{
+.paddingB {
   padding-bottom: 3rem;
 }
-.paddingL{
+.paddingL {
   padding-left: 2rem;
 }
-.paddingR{
+.paddingR {
   padding-right: 4rem;
+}
+
+@media #{$above-small} {
+  .textBlock {
+    width: 50%;
+  }
 }
