@@ -1,0 +1,13 @@
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+    <div class="uk-slider-container">
+      <ul class="uk-slider-items uk-grid">
+        <li *ngFor="let item of slides" class="uk-width-4-5">
+            <div class="uk-panel">
+                <img src="./assets/{{item}}ui.png" alt="">
+            </div>
+        </li>
+    </ul>
+    </div>
+    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+</div>
