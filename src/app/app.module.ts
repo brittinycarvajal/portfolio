@@ -24,6 +24,7 @@ import { FormsModule } from '@angular/forms';
 import { AchieveItComponent } from './components/achieve-it/achieve-it.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { DuolingoComponent } from './components/duolingo/duolingo.component';
+import { SlideshowComponent } from './components/slideshow/slideshow.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DuolingoComponent } from './components/duolingo/duolingo.component';
     WellsFargoComponent,
     AchieveItComponent,
     SliderComponent,
-    DuolingoComponent
+    DuolingoComponent,
+    SlideshowComponent
   ],
   imports: [
     BrowserAnimationsModule,
